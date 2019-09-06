@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.shivam.gamestar.Memorymap">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226">
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/a0"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="163dp" />
+
+            <Button
+                android:id="@+id/a1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="163dp" />
+
+            <Button
+                android:id="@+id/a2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+            <Button
+                android:id="@+id/a3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/a4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+            <Button
+                android:id="@+id/a5"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+            <Button
+                android:id="@+id/a6"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="98dp"
+                tools:layout_editor_absoluteY="154dp" />
+
+            <Button
+                android:id="@+id/a7"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="154dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/a8"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="234dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <Button
+                android:id="@+id/a9"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <Button
+                android:id="@+id/a11"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+
+            <Button
+                android:id="@+id/a12"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="86dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/a13"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <Button
+                android:id="@+id/a14"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <Button
+                android:id="@+id/a15"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <Button
+                android:id="@+id/a10"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:elevation="0dp"
+                android:textSize="12dp"
+                android:textColor="#00f"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+
+                tools:layout_editor_absoluteX="200dp"
+                tools:layout_editor_absoluteY="287dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="126dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="try tapping"
+        android:textColor="#ff0000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <Button
+        android:id="@+id/rst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#000"
+        android:fontFamily="serif"
+        android:text="exit"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lvldisplay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="lvl :"
+        android:textSize="15dp"
+        android:textColor="#f00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/hitdisplay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="hit :"
+        android:textColor="#f00"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+</android.support.constraint.ConstraintLayout>
